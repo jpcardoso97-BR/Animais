@@ -1,9 +1,14 @@
 public class Animal {
     private String nome;
     private String idade;
+    private int quantidadeDeMembros;
+    private double peso;
 
-    public Animal(String nome, String idade) {
-        this.nome = nome;
-        this.idade = idade;
+    public void movimento(){
+        System.out.println("Movimento");
+    }
+
+    public void emitirSom(){
+        System.out.println("Emitiu um som");
     }
 }
